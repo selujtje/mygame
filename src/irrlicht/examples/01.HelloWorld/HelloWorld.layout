@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Linux" />
+	<File name="RealisticWater.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="784" topLine="12" />
+	</File>
+	<File name="RealisticWater.h" open="1" top="0" tabpos="5">
+		<Cursor position="1415" topLine="30" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="8562" topLine="189" />
+	</File>
+</CodeBlocks_layout_file>

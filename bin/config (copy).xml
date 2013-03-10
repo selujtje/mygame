@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<!-- Driver Settings Help: 1 = Direct3D9, 2 = Direct3D8, 3 = OPENGL, 4 = Software, 5 = Software Improved-->
+<config driver="1" xres="1080" yres="720" bits="32" fullscreen="0" />
+

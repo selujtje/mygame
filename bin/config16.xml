@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<settings>
+	<video>
+		<resolution x="1280" y="720" />
+		<fullscreen value="0" />
+		<antialias value="0" />
+	</video>
+</mygame>

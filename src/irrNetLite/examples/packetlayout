@@ -1,0 +1,37 @@
+PACKET LAYOUTS:
+
+ID	|
+	|
+1	|CONNECT MESSAGE
+	|int		client version
+	|stringc 	UserName
+	|
+	|
+	|
+2	|CONNECTION DECLINED
+	|stringc 	reason why
+	|
+3	|CONNECTION ACCEPTED
+	|stringc	map name
+	|
+4	|NEW PLAYER
+	|stringc	UserName
+	|int		playerID
+	|
+5	|STATUS UPDATE
+	|array new locations
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Game" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Windows">
+				<Option platforms="Windows;" />
+				<Option output="bin/Game" prefix_auto="0" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+				</Compiler>
+				<Linker>
+					<Add directory="./lib/Win32-gcc" />
+				</Linker>
+			</Target>
+			<Target title="Linux">
+				<Option platforms="Unix;" />
+				<Option output="bin/Game" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+				</Compiler>
+				<Linker>
+					<Add library="Xxf86vm" />
+					<Add library="Xcursor" />
+					<Add library="GL" />
+					<Add directory="./lib/Linux" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Windows;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-W" />
+			<Add option="-g" />
+			<Add directory="./src/irrlicht/include" />
+		</Compiler>
+		<Linker>
+			<Add library="Irrlicht" />
+		</Linker>
+		<Unit filename="./src/RakNetStuff.h" />
+		<Unit filename="src/RealisticWater.cpp" />
+		<Unit filename="src/RealisticWater.h" />
+		<Unit filename="./src/chat.h" />
+		<Unit filename="./src/eventreceiver.cpp" />
+		<Unit filename="./src/events.cpp" />
+		<Unit filename="./src/game.cpp" />
+		<Unit filename="./src/game.h" />
+		<Unit filename="./src/gui.cpp" />
+		<Unit filename="./src/gui.h" />
+		<Unit filename="./src/main.cpp" />
+		<Unit filename="src/mainmenu.cpp" />
+		<Unit filename="./src/mainmenu.h" />
+		<Unit filename="./src/oxygen.cpp" />
+		<Unit filename="./src/resourceloader.cpp" />
+		<Unit filename="src/savegame.cpp" />
+		<Unit filename="src/settingsmanager.cpp" />
+		<Unit filename="./src/settingsmenu.cpp" />
+		<Unit filename="./src/settingsparser.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
